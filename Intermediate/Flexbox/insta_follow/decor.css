@@ -1,0 +1,60 @@
+.pp {
+    width: 37px;
+    border-radius: 100%;
+    padding-top: 6px;
+    
+}
+
+.name {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 2px 0 0 0;
+    text-align:left;
+    text-decoration: none;
+    color:black;
+
+}
+
+.bio {
+    color:gray;
+    font-size: 11px;
+    
+    margin:  auto;
+    text-align:left;
+
+}
+
+.popular {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:gray;
+    font-size: 10px;
+    
+    margin:  auto;
+    text-align:left;
+
+}
+
+.follow {
+    
+    background-color: rgb(76, 160, 244);
+                color:white;
+                font-size: 13px;
+                font-weight: 550;
+                border:None;
+                border-radius: 3px;
+                padding: 5px 12px;
+                margin-top: 7px ;
+                margin-left: auto;
+                margin-right: 5px;
+                transition: background-color 0.15s;
+            
+        
+}
+
+.follow:hover {
+    background-color: rgb(43, 143, 242);
+}
+
+.box:hover {
+    background-color: rgb(218, 211, 211);
+}

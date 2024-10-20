@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .home{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                text-decoration: none;
+                color: white;
+                font-size: 11px;
+                padding:3px;
+            }
+
+            .search {
+                width:85%;
+                border-radius: 50px;
+                border:none;
+                height: 20px;
+                margin:1px;
+
+            }
+
+            input::placeholder{
+                font-size:8px;
+                margin: auto;
+                padding:10px;
+                
+            }
+            .download {
+                background-color:  rgb(118, 59, 163) ;
+                color:white;
+                border-color: white;
+                border-width: 1px;
+                border-style: solid;
+                font-size: 10px;
+                font-weight:lighter;
+                padding: 4px 10px;
+                border-radius: 2px;
+            }
+        </style>
+        <title>
+            Bar
+        </title>
+    </head>
+
+    <body>
+        <div style=" margin:5px; width:99%; height:40px; background-color: rgb(108, 71, 145); display: flex; flex-direction: row;">
+
+            <div style="width: 80px;  margin: 9px;">
+                <a class="home" href="#"> Home </a>
+            </div>
+
+            <div style="flex-grow: 1; margin: 8px;">
+                <input class="search" type="text" placeholder="Search" name="searched">
+            </div>
+
+            <div style="width: 100x; margin:8px">
+                <input class="download" type="submit" value="Download" name="download">
+            </div>
+
+        </div>
+    </body>
+</html>
