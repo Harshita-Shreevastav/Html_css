@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head >
+    <style>
+        .add {
+            background-color: rgb(247, 245, 243);
+        }
+        .add:hover {
+            background-color: rgb(185, 181, 181);
+        }
+
+        .x:hover{
+            opacity: 0.7;
+        }
+    </style>
+    <title>
+        Cloth Preview
+    </title>
+</head>
+
+<body> 
+    
+    <div style="display: flex; justify-content: center; align-items: center;
+         width:550px; ">
+        
+        <div style=" border-width:1px; border-color:rgb(180, 176, 176);
+         border-style:solid; width:50%; display: flex; position: relative;
+         justify-content: center;
+         flex-direction: column;">
+
+            <div style="width:90%; display: flex; position: relative;">
+
+                <img src="dress.jpg" style="padding: 20px; width:100%;
+                ">
+
+                <div style="position: absolute;background-color: black; 
+                color: white; font-size: 13px; padding: 4px; flex-shrink: 0;
+                margin-top:30px; right:-29px; width: 24%; text-align: center;"> 
+                20% OFF
+                </div>
+
+                <input class="x" type="submit" value="X" style="position: absolute;background-color: black; 
+                color: white; font-size: 10px; padding: 4px 6px; flex-shrink: 0;
+                bottom:80px; right:-36px; text-align: center;
+                cursor: pointer; border-radius: 50px; border:none; transition: opacity 0.15s;"> 
+               
+            </div>
+            
+            <div style="display: flex; position: absolute;
+             background-color: rgba(0,0,0,0.3);
+            bottom: 0; left:0; right:0; height: 30%; justify-content: center;
+             vertical-align: center;">
+                <input class="add" type="submit" value="Add to Cart" name="cart"
+                    style=" border-width:1.5px; padding: 5px 10px; width:30%; height:30%;
+                     border-style:inset; color: rgb(0, 0, 0); margin:35px; 
+                     transition: background-color 0.15s; cursor: pointer;">
+            </div>
+        </div>
+
+        
+
+    </div>
+</body>
+</html>
